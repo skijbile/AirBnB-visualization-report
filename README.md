@@ -13,6 +13,8 @@
 	Due to the nature of this project I have tried my best to write my findings and understanding of each visualization in the caption portion of the tableau worksheets.
 
 	I connected to the data source in Tableau using text file and started to explore if all the formats of the columns were correct. After a few hurdles of plotting the regions on the map I found that the 	neighbourhood had to be unter the county category in geographical format to be able to plot it correctly. The host Id was changed to string as it was not going to be used for any calulations.
+	
+	Selecting the item on a worksheet should give the option to navigate to its particular dashboard.
 
 ## Results
 	For option 2 -AIRBNB data set
