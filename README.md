@@ -4,14 +4,24 @@
 ## Process
 	
 	I decided to look closely at the  the AirBnB data set as being from the hospitality background I though it may be just a little easier for me to build questions and answer them. As mentioned earlier not being able to quickly get analytical question I first started creating some basic visuals and the more visuals I made, various questions started poppin and I adjusted my visuals to answer them to the best of my abilities.
-
+<div style="display: flex; justify-content: center;">
+    <p align="center">
+        <img src="Data\Images\Screenshot 2025-01-08 181018.png" width="400">
+    </p>
+</div>
 
 	My aproach with creating dashboards was as though I was presenting this data to the stakeholders of AirBnB.
 	Due to the nature of this project I have tried my best to write my findings and understanding of each visualization in the caption portion of the tableau worksheets.
 
 	I connected to the data source in Tableau using text file and started to explore if all the formats of the columns were correct. After a few hurdles of plotting the regions on the map I found that the neighbourhood had to be under the county category in geographical format to be able to plot it correctly. The host Id was changed to string as it was not going to be used for any calulations.
 	
-	Selecting the item on a worksheet should give the option to navigate to its particular dashboard.
+ <div style="display: flex; justify-content: center;">
+    <p align="center">
+        <img src="Data\Images\Screenshot 2025-01-08 180524.png" width="400">
+    </p>
+</div>
+	
+ 	Selecting the item on a worksheet should give the option to navigate to its particular dashboard.
 
 ## Results
 
@@ -21,9 +31,22 @@
 
 	I grouped the property type further into standard stay and unique stay to differentiate it on the accomodation experience from a customer stand point and seeing as this data set is for New York it shows us that standard stay properties are more available being in a busy city. this can be viewed in the Property Classification worksheet as well as the overview dashboard.
 
-	The over time progress of AIRBNB can be seen in the Current Air BnB standings Dashboard, on how the trend of increase can be seen for the different regions and how there was a big boom near to 2011 for Brooklyn and Manhattan
+  <div style="display: flex; justify-content: center;">
+    <p align="center">
+        <img src="Data\Images\Screenshot 2025-01-08 182031.png" width="400">
+    </p>
+</div>
+
+ 	The over time progress of AIRBNB can be seen in the Current Air BnB standings Dashboard, on how the trend of increase can be seen for the different regions and how there was a big boom near to 2011 for Brooklyn and Manhattan
 
 	During all this and the EDA process of looking for NULL values , you can see in the EDA-Dashboard that the review ratings has almost 25% null values which cannot be ignored and reflects upon an area 	of concern. it clearly indicated that customers need to be encouraged to leave ratings after their stay and that it is not due just an imcomplete nature of the attribute.
+
+   <div style="display: flex; justify-content: center;">
+    <p align="center">
+        <img src="Data\Images\Screenshot 2025-01-08 182418.png" width="400">
+    </p>
+</div>
+
 
 
 ## Challenges 
@@ -34,6 +57,3 @@
 	
 	Every new worksheet I was creating felt like and EDA process as it gave me new insights into the nature of the data that I was looking into. Eg how only Staten Island had any properties with 3 beds/multiple accomodation which can be seen in the Housing Styles in NewYork worksheet. 
 
-
-## Future Goals
-	I would have given more time to figure out option 1 so as to improve on the aspect of joing data from different files and sources, but given that I proceeded with option 2 I would have done the EDA process in python so as to give me an idea while working with tableau for what I should be looking for as a result . Found more patterns and trends in this data set
