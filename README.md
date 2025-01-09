@@ -5,7 +5,6 @@
 	
 	I decided to look closely at the  the AirBnB data set as being from the hospitality background I though it may be just a little easier for me to build questions and answer them. As mentioned earlier not being able to quickly get analytical question I first started creating some basic visuals and the more visuals I made, various questions started poppin and I adjusted my visuals to answer them to the best of my abilities.
 
- 
 
 	My aproach with creating dashboards was as though I was presenting this data to the stakeholders of AirBnB.
 	Due to the nature of this project I have tried my best to write my findings and understanding of each visualization in the caption portion of the tableau worksheets.
